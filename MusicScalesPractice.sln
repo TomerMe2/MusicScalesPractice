@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicScalesPractice", "MusicScalesPractice\MusicScalesPractice.csproj", "{FFAC8A40-6BD4-4D4F-A1A8-7FE8FDE0B647}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{46B67B33-B1C4-4E0A-B8BA-C6E0E0EB481C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFAC8A40-6BD4-4D4F-A1A8-7FE8FDE0B647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAC8A40-6BD4-4D4F-A1A8-7FE8FDE0B647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAC8A40-6BD4-4D4F-A1A8-7FE8FDE0B647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAC8A40-6BD4-4D4F-A1A8-7FE8FDE0B647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B67B33-B1C4-4E0A-B8BA-C6E0E0EB481C}.Debug|Any CPU.ActiveCfg = Debug
+		{46B67B33-B1C4-4E0A-B8BA-C6E0E0EB481C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49C0886F-38B9-4632-BD51-90D535522B64}
+	EndGlobalSection
+EndGlobal

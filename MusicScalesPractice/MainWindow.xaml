@@ -1,0 +1,31 @@
+﻿<Window x:Class="MusicScalesPractice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicScalesPractice"
+        mc:Ignorable="d"
+        Title="Scales Practice" Height="304.129" Width="673.945" Background="#FF513C3C" Icon="TrebleIc.ico">
+    <Grid Margin="-2,0,2.2,-0.2">
+        <TextBox x:Name="TxtBx1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Margin="85,96,0,0" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="TxtBx2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Margin="165,96,0,0" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="TxtBx3" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Margin="245,96,0,0" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="TxtBx4" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Margin="325,96,0,0" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="TxtBx5" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Margin="405,96,0,0" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="TxtBx6" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Margin="485,96,0,0" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="TxtBx7" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" Margin="565,96,0,0" RenderTransformOrigin="1.345,0.482" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="TxtBxSclNm" HorizontalAlignment="Left" Height="23" Margin="190,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" HorizontalContentAlignment="Center"/>
+        <Button x:Name="BtnCheck" Content="Check!" HorizontalAlignment="Left" Margin="392,155,0,0" VerticalAlignment="Top" Width="75" Click="BtnCheck_Click"/>
+        <Button x:Name="BtnGenerate" Content="Generate New Scale" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Margin="256,211,0,0" Click="BtnGenerate_Click"/>
+        <Label Content="Scales Practice" HorizontalAlignment="Left" Margin="186,6,0,0" VerticalAlignment="Top" Foreground="#FFE7E7E7" Height="74" Width="319" FontSize="48"/>
+        <Label Content="This program was written by Tomer Laor" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="9,240,0,0"/>
+        <ComboBox x:Name="ComboBxScales" HorizontalAlignment="Left" Margin="256,155,0,0" VerticalAlignment="Top" Width="119">
+            <ComboBoxItem Content="Major"/>
+            <ComboBoxItem Content="Melodic Minor"/>
+            <ComboBoxItem Content="Harmonic Minor"/>
+            <ComboBoxItem Content="Natural Minor"/>
+        </ComboBox>
+        <Image HorizontalAlignment="Left" Height="186" Margin="0,36,0,0" VerticalAlignment="Top" Width="105" Source="Treble.png" RenderTransformOrigin="0.301,1.09" Stretch="Fill"/>
+
+    </Grid>
+</Window>

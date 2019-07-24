@@ -8,7 +8,7 @@ using System.Text;
 namespace MusicScalesPractice
 {
     /// <summary>
-    /// Generates a 16 byte Unique Identification code of a computer
+    /// Generates a 8 byte Unique Identification code of a computer
     /// Example: 4876-8DB5-EE85-69D3-FE52-8CF7-395D-2EA9
     /// </summary>
     public class FingerPrint
